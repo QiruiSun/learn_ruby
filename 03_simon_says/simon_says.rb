@@ -1,3 +1,7 @@
 def echo(sound)
-  "#{sound}""
+  "#{sound}"
+end
+
+def shout(sound)
+  "#{sound.to_s.upcase}"
 end
