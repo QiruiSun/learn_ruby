@@ -40,6 +40,9 @@ class TestTemperature < MiniTest::Test
     assert_equal 68, ctof(20)
   end
 
+  def test_ctof_converts_temperature_with_decimalnumber
+    assert_equal 163.4, ctof(73)
+  end
 end
 
 # Remember the difference between integers and floats:
