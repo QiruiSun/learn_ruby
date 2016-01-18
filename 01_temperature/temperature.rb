@@ -11,5 +11,5 @@ def ftoc(temperature)
 end
 
 def ctof(temperature)
-  (temperature * 9 / 5) + 32
+  (temperature * 9.0 / 5.0) + 32
 end
